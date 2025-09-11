@@ -1,0 +1,24 @@
+{
+  "name": "restinpests",
+  "version": "1.0.0",
+  "description": "A lightweight, no-dependency TypeScript REST API framework - because every API needs a few pests.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "start:example": "ts-node examples/basic/src/main.ts"
+  },
+  "keywords": [],
+  "author": "Meir Borowski",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.3.1",
+    "jest": "^30.1.3",
+    "ts-jest": "^29.4.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
