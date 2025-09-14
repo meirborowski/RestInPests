@@ -1,0 +1,50 @@
+<svg viewBox="0 0 400 120" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="60" cy="60" r="50" fill="#2D5016" stroke="#4A7C23" stroke-width="3"/>
+  
+  <!-- Main bug body -->
+  <ellipse cx="60" cy="60" rx="25" ry="15" fill="#8BC34A"/>
+  
+  <!-- Bug head -->
+  <circle cx="45" cy="55" r="8" fill="#689F38"/>
+  
+  <!-- Bug spots -->
+  <circle cx="55" cy="55" r="3" fill="#4A7C23"/>
+  <circle cx="65" cy="58" r="2.5" fill="#4A7C23"/>
+  <circle cx="70" cy="65" r="2" fill="#4A7C23"/>
+  
+  <!-- Bug antennae -->
+  <line x1="40" y1="50" x2="35" y2="45" stroke="#4A7C23" stroke-width="2" stroke-linecap="round"/>
+  <line x1="42" y1="48" x2="37" y2="43" stroke="#4A7C23" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="35" cy="45" r="1.5" fill="#FF5722"/>
+  <circle cx="37" cy="43" r="1.5" fill="#FF5722"/>
+  
+  <!-- Bug legs -->
+  <line x1="50" y1="70" x2="45" y2="80" stroke="#4A7C23" stroke-width="2" stroke-linecap="round"/>
+  <line x1="60" y1="72" x2="55" y2="82" stroke="#4A7C23" stroke-width="2" stroke-linecap="round"/>
+  <line x1="70" y1="70" x2="75" y2="80" stroke="#4A7C23" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Wings -->
+  <ellipse cx="65" cy="50" rx="8" ry="4" fill="#E8F5E8" opacity="0.7" transform="rotate(15 65 50)"/>
+  <ellipse cx="70" cy="55" rx="6" ry="3" fill="#E8F5E8" opacity="0.7" transform="rotate(25 70 55)"/>
+  
+  <!-- Text: RestInPests -->
+  <text x="130" y="45" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#2D5016">
+    Rest<tspan fill="#8BC34A">In</tspan>Pests
+  </text>
+  
+  <!-- Tagline -->
+  <text x="130" y="65" font-family="Arial, sans-serif" font-size="12" fill="#689F38">
+    TypeScript REST Framework
+  </text>
+  
+  <!-- Small decorative bugs -->
+  <text x="130" y="85" font-size="16">🐛</text>
+  <text x="150" y="85" font-size="14">🦗</text>
+  <text x="170" y="85" font-size="16">🐜</text>
+  <text x="190" y="85" font-size="14">🕷️</text>
+  <text x="210" y="85" font-size="16">🦟</text>
+  
+  <!-- Curved accent line -->
+  <path d="M 130 90 Q 200 95 270 90" stroke="#8BC34A" stroke-width="2" fill="none" opacity="0.6"/>
+</svg>
